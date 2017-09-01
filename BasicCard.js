@@ -7,8 +7,9 @@ var BasicCard = function(front,back){
         console.log(this.back);
     }
 }
-var abasicCard= new BasicCard("What was the first president of the U.S.","George Washington");
 
-abasicCard.displayCard();
+//Tested to constructor
+// var abasicCard= new BasicCard("What was the first president of the U.S.","George Washington");
+// abasicCard.displayCard();
 // Export the module
 module.exports= BasicCard;
